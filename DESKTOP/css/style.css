@@ -37,7 +37,7 @@ input[type=text], input[type=tel], textarea {
     -webkit-appearance: none;
 }
 p{
-    font-family: Arimo;
+    font-family: Helvetica;
     font-size: 17px !important;
     line-height: 30px !important;
 }
