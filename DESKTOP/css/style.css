@@ -13,7 +13,8 @@ a {
 }
 
 ul, ol {
-    list-style: none;
+    /*list-style: none;*/
+    list-style: inside;
 }
 
 .clr {
@@ -36,7 +37,7 @@ p {
 input[type=text], input[type=tel], textarea {
     -webkit-appearance: none;
 }
-p{
+p, ul{
     font-family: Helvetica;
     font-size: 17px !important;
     line-height: 30px !important;
@@ -110,5 +111,5 @@ p{
     margin: 20px 0;
 }
 .block-first{
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
