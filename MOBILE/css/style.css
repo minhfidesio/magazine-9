@@ -12,7 +12,8 @@ a {
 }
 
 ul, ol {
-    list-style: none;
+    /*list-style: none;*/
+    list-style: inside;
 }
 
 .clr {
@@ -63,9 +64,9 @@ input[type=text], input[type=tel], textarea {
     margin: 0 auto;
 }
 
-p{
+p, ul{
     padding: 0 10px;
-    font-family: Arimo;
+    font-family: Helvetica;
     font-size: 17px;
     line-height: 30px !important;
 }
@@ -80,7 +81,6 @@ p{
     width: 100%;
 }
 .how-richkid .container, .combo-cheapkid .container, .combo-richkid .container{
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
